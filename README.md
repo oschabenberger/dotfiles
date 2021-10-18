@@ -2,7 +2,7 @@
 
 ```bash
 # bootstrap dotfiles
-curl -fsSL https://raw.githubusercontent.com/ricochet/dotfiles/main/bootstrap | bash
+curl -fsSL https://raw.githubusercontent.com/oschabenberger/dotfiles/main/bootstrap | bash
 ```
 
 - Dotfiles: use a bare git repository in the user's home (no symlinks).
