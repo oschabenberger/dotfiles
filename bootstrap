@@ -33,7 +33,7 @@ SCRIPT=$(readlink -f $0)
 BOOTSTRAP_SCRIPT_DIR=$(dirname ${SCRIPT})
 
 DOTFILES=${DOTFILES:-$HOME/.dotfiles}
-GITHUB_USER=${GITHUB_USER:-ricochet}
+GITHUB_USER=${GITHUB_USER:-oschabenberger}
 
 echo "==> Cloning dotfiles bare repo"
 git clone --quiet --bare --no-checkout https://github.com/${GITHUB_USER}/dotfiles.git ${DOTFILES}
